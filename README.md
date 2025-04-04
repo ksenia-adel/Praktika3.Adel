@@ -40,7 +40,7 @@ SECRET=yourJWTSecret
 ```
 ## NB! If there is no schema "books" in your database, before migration remove <<"schema": "books">> from config/config.json
 
-### Migration and book import.
+### Migration and book import into your data base.
 ```bash
 npx sequelize-cli db:migrate
 ```
