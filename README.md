@@ -104,6 +104,7 @@ or
 }
 ```
 After signing in, copy generated accessToken. Go to Thunder Client > Headers > header : Authorization, value : << insert your accessToken >>
+After that you can switch between authorizations User/Admin.
 
 ![image](https://github.com/user-attachments/assets/32f64e3a-cbc9-4343-ba24-70d01ce0befe)
 
