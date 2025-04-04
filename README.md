@@ -32,7 +32,7 @@ npm install
 DB_USER=yourUser
 DB_PASSWORD=yourPassword
 DB_DATABASE=yourDatabase
-DB_HOST=yourHost
+DB_HOST=dev.vk.edu.ee
 DB_PORT=5432
 DB_DIALECT=postgres
 DB_SCHEMA=books
