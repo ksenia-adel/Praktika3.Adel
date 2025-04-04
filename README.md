@@ -62,7 +62,7 @@ node server.js
 POST /api/auth/signup
 ```
 
-Example:
+Example Body[JSON]:
 
 ```bash
 {
@@ -88,7 +88,7 @@ or
 POST /api/auth/signin
 ```
 
-Example:
+Example Body[JSON]:
 
 ```bash
 {
@@ -125,7 +125,7 @@ GET /api/books
 ```bash
 POST /api/books
 ```
-Example:
+Example Body[JSON]:
 ```bash
 {
   "title": "The War of the Worlds",
@@ -138,7 +138,7 @@ Example:
 ```bash
 PUT /api/books/:id
 ```
-Example:
+Example Body[JSON]:
 ```bash
 {
   "title": "The War of the Worlds",
@@ -158,7 +158,7 @@ DELETE /api/books/:id
 ```bash
 POST /api/comments/:bookId
 ```
-Example:
+Example Body[JSON]: 
 ```bash
 {
   "content": "väga huvitav raamat!"
