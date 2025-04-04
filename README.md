@@ -103,6 +103,7 @@ or
   "password": "user1pass"
 }
 ```
+![image](https://github.com/user-attachments/assets/daa094d3-9938-4654-a580-d438bb1c4bae)
 
 After signing in, copy token. Go to Thunder Client > Headers > header : Authorization, value : << insert your token >>
 
