@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/drahulsingh/best-selling-books
 
 - User authentication (signup/signin) with JWT
 - Role-based access:
-  - **Admin** can create, update, and delete books + can delete comments and users
+  - **Admin** can view/create/update/delete books, view/post/delete comments, view logs, view/delete users
   - **User** can view books and view/post/delete comments
 - Commenting system (per book)
 - Activity logging for admin actions
