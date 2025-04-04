@@ -17,15 +17,15 @@ https://www.kaggle.com/datasets/drahulsingh/best-selling-books
 
 Clone the repository and install dependencies:
 
-bash
+```bash
 git clone https://github.com/your-username/your-project.git
 cd your-project
 npm install
-
+```
 
 ## Create a .env file:
 
-bash
+```bash
 DB_USER=yourUser
 DB_PASSWORD=yourPassword
 DB_DATABASE=yourDatabase
@@ -34,25 +34,25 @@ DB_PORT=5432
 DB_DIALECT=postgres
 DB_SCHEMA=books
 SECRET=yourJWTSecret
-
+```
 
 ## Running the Server
 
-bash
+```bash
 node server.js
-
+```
 
 # API Endpoints
 ## Authentication
 ### Sign Up
 
-bash
+```bash
 POST /api/auth/signup
-
+```
 
 Example:
 
-bash
+```bash
 {
   "username": "admin",
   "email": "admin@example.com",
@@ -68,17 +68,17 @@ or
   "password": "user1pass",
   "role": "User"
 }
-
+```
 
 ### Sing In
 
-bash
+```bash
 POST /api/auth/signin
-
+```
 
 Example:
 
-bash
+```bash
 {
   "username": "admin",
   "password": "adminpass"
@@ -90,78 +90,79 @@ or
   "username": "user1",
   "password": "user1pass"
 }
+```
 
 After signing in, copy token. Go to Thunder Client > Headers > header : Authorization, value : << insert your token >>
 
 ### Delete user permanently (only Admin)
-bash
+```bash
 DELETE api/users/:userId
-
+```
 
 ## Books
 ### Get all books
-bash
+```bash
 GET /api/books
-
+```
 ### Add a book (only Admin)
-bash
+```bash
 POST /api/books
-
+```
 Example:
-bash
+```bash
 {
   "title": "The War of the Worlds",
   "publicationYear": 1898,
   "authorNames": ["H. G. Wells"],
   "categoryNames": ["Science fiction"]
 }
-
+```
 ### Update book info (only Admin)
-bash
+```bash
 PUT /api/books/:id
-
+```
 Example:
-bash
+```bash
 {
   "title": "The War of the Worlds",
   "publicationYear": 1890,
   "authorNames": ["H. G. Wells"],
   "categoryNames": ["Science fiction"]
 }
-
+```
 ### Delete book (only Admin)
-bash
+```bash
 DELETE /api/books/:id
-
+```
 
 ## Comments (all users)
 
 ### Add a comment 
-bash
+```bash
 POST /api/comments/:bookId
-
+```
 Example:
-bash
+```bash
 {
   "content": "väga huvitav raamat!"
 }
-
+```
 ### Get comments for book by bookId
-bash
+```bash
 GET /api/comments/:bookId
-
+```
 
 ### Delete comment
-bash
+```bash
  DELETE /api/comments/:commentId
-
+```
 ## Activity logs (only Admin)
-bash
+```bash
 GET /api/logs
-
+```
 
 ## User Roles
 
 Admin: Full access
 
-User: View books, add/delete comments
+User: View books, view/add/delete comments
