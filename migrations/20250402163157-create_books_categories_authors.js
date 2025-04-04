@@ -1,3 +1,4 @@
+// https://sequelize.org/docs/v6/other-topics/migrations/
 // if there is no schema "books" in your database, before migration remove <<"schema": "books">> from config/config.json
 
 'use strict';

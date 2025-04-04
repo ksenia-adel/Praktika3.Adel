@@ -1,4 +1,4 @@
-
+// Näide. Backend - Articles oli väga kasulik.
 
 // Building Your First REST API with Node JS, Express, and Sequelize
 // https://medium.com/@mtalhanasir96/building-your-first-rest-api-with-node-js-express-and-sequelize-b041f9910b8a
