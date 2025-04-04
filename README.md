@@ -1,6 +1,9 @@
 # Book Management RESTful API
 
 A RESTful API for managing books, authors, and categories with user authentication using JWT and role-based access control.
+
+Used dataset contains lists of best-selling books and book series.
+
 https://www.kaggle.com/datasets/drahulsingh/best-selling-books
 
 ## Features
