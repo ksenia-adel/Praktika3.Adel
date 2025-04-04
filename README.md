@@ -39,6 +39,8 @@ DB_SCHEMA=books
 SECRET=yourJWTSecret
 ```
 ## NB! If there is no schema "books" in your database, before migration remove <<"schema": "books">> from config/config.json
+
+
 ## Running the Server
 
 ```bash
