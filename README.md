@@ -21,7 +21,7 @@ https://www.kaggle.com/datasets/drahulsingh/best-selling-books
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/ksenia-adel/Praktika3.Adel
 cd your-project
 npm install
 ```
