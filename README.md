@@ -36,7 +36,7 @@ DB_HOST=dev.vk.edu.ee
 DB_PORT=5432
 DB_DIALECT=postgres
 DB_SCHEMA=books
-SECRET=yourJWTSecret
+SECRET_ACCESS_TOKEN=secret
 ```
 
 
